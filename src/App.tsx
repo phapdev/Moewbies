@@ -14,18 +14,18 @@ function App() {
         </div>
         
         {/* Hàng 2: 3 buttons */}
-        <div className=" flex items-center justify-center gap-36">
-        <button className="bg-dark text-text-btn px-4 py-2 rounded-md uppercase font-bold hover:bg-text-btn-hover hover:text-secondary border-solid border-[1px] border-light shadow-md lg:text-lg flex items-center gap-2 transition-all duration-300">
+        <div className=" flex items-center justify-center gap-20">
+        <button className="bg-dark text-text-btn px-8 py-2 rounded-md uppercase font-bold hover:bg-text-btn-hover hover:text-secondary border-solid border-[1px] border-light shadow-md lg:text-lg flex items-center gap-2 transition-all duration-300 font-weight-900 font-size-lg ">
           <img src={Meow} alt="connect" className="w-4 h-4" />
-          Connect
+          <span className="font-weight-900 text-3xl font-size-lg">Connect</span>
         </button>
-          <button className="bg-dark text-text-btn px-4 py-2 rounded-md uppercase font-bold hover:bg-text-btn-hover hover:text-secondary border-solid border-[1px] border-light shadow-md lg:text-lg flex items-center gap-2 transition-all duration-300">
+          <button className="bg-dark text-text-btn px-8 py-2 rounded-md uppercase font-bold hover:bg-text-btn-hover hover:text-secondary border-solid border-[1px] border-light shadow-md lg:text-lg flex items-center gap-2 transition-all duration-300 font-weight-900 text-lg font-size-lg">
           <img src={Meow} alt="eligibilities" className="w-4 h-4" />
-          ELIGIBILITIES
+          <span className="font-weight-900 text-3xl font-size-lg">ELIGIBILITIES</span>
         </button>
-          <button className="bg-dark text-text-btn px-4 py-2 rounded-md uppercase font-bold hover:bg-text-btn-hover hover:text-secondary border-solid border-[1px] border-light shadow-md lg:text-lg flex items-center gap-2 transition-all duration-300">
+          <button className="bg-dark text-text-btn px-8 py-2 rounded-md uppercase font-bold hover:bg-text-btn-hover hover:text-secondary border-solid border-[1px] border-light shadow-md lg:text-lg flex items-center gap-2 transition-all duration-300 font-weight-900 text-lg font-size-lg">
           <img src={Meow} alt="claim" className="w-4 h-4" />
-          CLAIM
+          <span className="font-weight-900 text-3xl font-size-lg">CLAIM</span>
         </button>
         </div>
         
